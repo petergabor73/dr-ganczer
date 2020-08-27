@@ -4360,6 +4360,8 @@ input[type="button"].btn-block {
 }
 
 .navbar-brand {
+  /*font-family: 'Yesteryear', cursive;*/
+  font-family: 'Pacifico', cursive;
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
@@ -4369,6 +4371,11 @@ input[type="button"].btn-block {
   white-space: nowrap;
 }
 
+.navbar-brand .pozicio {
+  font-family: 'Play', sans-serif;
+  margin-bottom: 0rem;
+
+} 
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
