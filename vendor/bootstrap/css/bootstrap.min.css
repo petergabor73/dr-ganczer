@@ -81,6 +81,11 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.slideshow-p {
+  text-align: center;
 }
 
 abbr[title],
@@ -3417,7 +3422,7 @@ input[type="button"].btn-block {
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: #AD9A97; /* #f8f9fa;*/
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -4699,7 +4704,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #AD9A97; /* #fff;*/
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
@@ -4707,7 +4712,8 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: #AD9A97;
+  /*color: rgba(255, 255, 255, 0.5);*/
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
@@ -4862,6 +4868,11 @@ input[type="button"].btn-block {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   width: 100%;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1); 
+  transition-duration: 2s;
 }
 
 .card-img,
@@ -6457,6 +6468,7 @@ a.close.disabled {
 }
 
 .carousel-item {
+
   position: relative;
   display: none;
   float: left;
@@ -6467,6 +6479,7 @@ a.close.disabled {
   transition: -webkit-transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -10094,7 +10107,8 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #fff !important;
+  color: #AD9A97;
+  /*color: #fff !important;*/
 }
 
 .text-primary {
