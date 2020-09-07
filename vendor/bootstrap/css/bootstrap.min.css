@@ -88,6 +88,18 @@ p {
   text-align: center;
 }
 
+.kozepre {
+  text-align: center;
+  
+}
+
+.separator {
+  margin-bottom: 1rem;
+  background-color: #AD9A97;
+  background: linear-gradient(to left, #FFFFFF 0%, #AD9A97 100%);
+}
+
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -556,6 +568,10 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.szakteruletek {
+  background-color: #AD9A97;
 }
 
 @media (min-width: 576px) {
