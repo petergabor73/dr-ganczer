@@ -4898,7 +4898,7 @@ input[type="button"].btn-block {
 }
 
 /*PG - kisképek növelése*/
-.card-img-top:hover {
+.card-zoom:hover {
   transform: scale(1.1); 
   transition-duration: 2s;
 }
