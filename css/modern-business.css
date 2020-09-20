@@ -7,6 +7,32 @@ body {
   padding-top: 56px;
 }
 
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
+a {
+  color: #353140;
+}
+
+.atmenet, .atmenet:visited .atmenet:hover {
+  color: #AD9A97
+}
+
+
+.atmenet:hover {
+  color: #353140;
+  background: linear-gradient(to left, #FFFFFF 0%, #AD9A97 100%);
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #16181b;
+  text-decoration: none;
+  background-color: #AD9A97; /* #f8f9fa;*/
+  background: linear-gradient(to left, #FFFFFF 0%, #AD9A97 100%);
+  
+}
+
 .carousel-item {
   height: 65vh;
   min-height: 300px;
@@ -20,3 +46,4 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
