@@ -34,16 +34,27 @@ a {
 }
 
 .carousel-item {
-  height: 65vh;
+  height: 75vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; 
 }
+
+.carousel-caption {
+  background-color: #1A162A ;
+  opacity: 0.6;
+  border-radius: 10px;
+}
+
 
 .portfolio-item {
   margin-bottom: 30px;
 }
 
+.ganczerpict {
+  margin-left: auto;
+  margin-right: auto;
+}
